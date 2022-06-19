@@ -1,4 +1,4 @@
-﻿Subtracao();
+﻿Divisao();
 
 static void Soma() {
 
@@ -31,3 +31,21 @@ static void Subtracao() {
     Console.WriteLine($"O Resultado da Subtração é {resultado}");
     Console.ReadKey();
 }
+
+static void Divisao() {
+    Console.Clear();
+
+    Console.WriteLine("Primeiro Valor: ");
+    float v1 = float.Parse(Console.ReadLine());
+
+    Console.WriteLine("Primeiro Valor: ");
+    float v2 = float.Parse(Console.ReadLine());
+
+    Console.WriteLine("");
+
+    float resultado = v1/v2;
+    Console.WriteLine($"O Resultado da divisão é {resultado}");
+    Console.ReadKey();
+
+}
+
